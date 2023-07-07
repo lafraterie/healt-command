@@ -1,0 +1,15 @@
+name: Reward
+author: Natanael
+version: 1.0.0
+api: 4.0.0
+main: tuto\main
+
+commands:
+  healt:
+    usage: /healt
+    description: Retablie votre vie au maximum.
+    permission: healt.cmd
+    
+permissions:
+  healt.cmd:
+    default: true
